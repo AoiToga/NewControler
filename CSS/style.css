@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+
+    overflow: hidden;
+
+
+
+}
+
+
+/*/////////////////////////////////////////// CONTROL SHADOW_BACK ////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.controler {
+
+    width: 200px;
+    height: 400px;
+
+    background-color: #02182B;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 10px;
+
+
+    top: 50px;
+
+}
+
+
+
+/*//////////////////////////////////////////// BUTTONS TOP_SHADOW ////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.controler #on {
+
+    width: 40px;
+    height: 20px;
+
+    position: absolute;
+
+    margin: 20px;
+
+    background-color: #72295a;
+    overflow: hidden;
+    border-radius: 10%;
+
+}
+
+.controler #buttonR {
+
+    width: 40px;
+    height: 20px;
+
+    position: absolute;
+    right: 0%;
+
+    margin: 20px;
+
+    background-color: #8D86C9;
+    overflow: hidden;
+    border-radius: 10%;
+
+}
+
+
+
+
+
+/*//////////////////////////////////////// BUTTONS ROW_INVISIBLE ////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+.controler #filer1 {
+
+    width: 160px;
+    height: 25px;
+
+    /* background-color: rgb(4, 133, 4); */
+
+
+    position: absolute;
+    top: 60px;
+    margin: 10%;
+
+
+}
+
+.controler #filer2 {
+
+    width: 160px;
+    height: 25px;
+
+    /* background-color: rgb(83, 128, 0); */
+
+    position: absolute;
+    top: 120px;
+    margin: 10%;
+
+}
+
+.controler #filer3 {
+
+    width: 160px;
+    height: 25px;
+
+    /* background-color: rgb(128, 0, 0); */
+
+    position: absolute;
+    top: 160px;
+    margin: 10%;
+
+}
+
+.controler #filer4 {
+
+    width: 160px;
+    height: 100px;
+
+    /* background-color: rgb(128, 0, 0); */
+
+    position: absolute;
+    top: 200px;
+    margin: 10%;
+
+}
+
+.controler #filer5 {
+
+    width: 160px;
+    height: 25px;
+
+    /* background-color: rgb(9, 0, 128); */
+
+    position: absolute;
+    top: 320px;
+    margin: 10%;
+
+}
+
+
+/*////////////////////////////////////////////// BUTTONS TOP ////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.controler #bts1 {
+
+    position: absolute;
+    width: 35px;
+    height: 25px;
+
+    background-color: #8D86C9;
+    overflow: hidden;
+
+    margin: 02%;
+    border-radius: 10%;
+
+    top: 0%;
+    left: 0%;
+
+
+
+}
+
+
+.controler #bts2 {
+
+    position: absolute;
+    width: 35px;
+    height: 25px;
+
+    background-color: #8D86C9;
+    overflow: hidden;
+
+    margin: 02%;
+    border-radius: 10%;
+
+    top: 0%;
+    left: 25%;
+
+}
+
+.controler #bts3 {
+
+    position: absolute;
+    width: 35px;
+    height: 25px;
+
+    background-color: #8D86C9;
+    overflow: hidden;
+
+    margin: 02%;
+    border-radius: 10%;
+
+    top: 0%;
+    left: 50%;
+
+}
+
+
+.controler #bts4 {
+
+    position: absolute;
+    width: 35px;
+    height: 25px;
+
+    background-color: #8D86C9;
+    overflow: hidden;
+
+    margin: 02%;
+    border-radius: 10%;
+
+    top: 0%;
+    left: 75%;
+
+}
+
+
+/*////////////////////////////////////// 3D INSIDE + HIGH BUTTON ////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.controler #Cinside {
+
+    width: 200px;
+    height: 400px;
+
+    background-image: linear-gradient(to bottom right, #32728b, #0e1e3d);
+    position: absolute;
+    right: 05px;
+    bottom: 05px;
+
+
+
+}
+
+
+.controler #inside {
+
+    position: relative;
+    width: 35px;
+    height: 23px;
+
+    background-color: #F7ECE1;
+
+    right: 03px;
+
+
+}
+
+.controler #Rinside {
+
+    position: relative;
+    width: 40px;
+    height: 20px;
+
+    background-color: #E8E9EB;
+
+    right: 03px;
+    bottom: 02px;
+
+}
+
+
+.controler #oninside {
+
+    position: relative;
+    width: 40px;
+    height: 20px;
+
+    background-color: #eb5b58;
+
+    right: 03px;
+    bottom: 02px;
+
+
+}
+
+
+
+
+/*////////////////////////////////////////////////  3D active  //////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.controler #oninside:active {
+
+    position: relative;
+    width: 42px;
+    height: 22px;
+
+    background-color: #b83634;
+
+
+}
+
+.controler #Rinside:active {
+
+    position: relative;
+    width: 42px;
+    height: 22px;
+
+    background-color: #a3a3a3;
+
+
+}
+
+.controler #inside:active {
+
+    position: relative;
+    width: 40px;
+    height: 25px;
+
+    background-color: #a3a3a3;
+
+
+}
