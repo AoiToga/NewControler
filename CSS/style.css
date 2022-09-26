@@ -261,6 +261,33 @@ body {
 
 }
 
+.controler #inside1 {
+
+    position: relative;
+    width: 35px;
+    height: 23px;
+
+    background-color: #F7ECE1;
+
+    right: 03px;
+
+
+}
+
+
+.controler #inside2 {
+
+    position: relative;
+    width: 35px;
+    height: 23px;
+
+    background-color: #F7ECE1;
+
+    right: 03px;
+
+
+}
+
 .controler #Rinside {
 
     position: relative;
@@ -319,6 +346,31 @@ body {
 }
 
 .controler #inside:active {
+
+    position: relative;
+    width: 40px;
+    height: 25px;
+
+    background-color: #a3a3a3;
+
+
+}
+
+
+/*TESTE*/
+.controler #inside1:active {
+
+    position: relative;
+    width: 40px;
+    height: 25px;
+
+    background-color: #a3a3a3;
+
+
+}
+
+
+.controler #inside2:active {
 
     position: relative;
     width: 40px;

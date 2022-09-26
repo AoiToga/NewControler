@@ -16,7 +16,37 @@ function Background() {
 
 }
 
+/////////////// teste
 
+// let tr = document.getElementById("bts1");
+// let tr2 = document.getElementById("inside1");
+// let pop = document.body;
+
+// let colorr = ['#542344'];
+// tr.addEventListener('click', Background)
+// tr2.addEventListener('click', Background)
+
+// function bkg(){
+
+//     let change = Math.floor([0] * colorr.length)
+//     pop.style.backgroundColor = colorr[change];
+
+// }
+
+// let trr = document.getElementById("bts2");
+// let trr2 = document.getElementById("inside2");
+
+// let colorrr = ['#808080'];
+// trr.addEventListener('click', Background)
+// trr2.addEventListener('click', Background)
+
+// function bkg(){
+
+//     let change = Math.floor(1 * colorrr.length)
+//     pop.style.backgroundColor = colorrr[change];
+
+// }
+///////////////////////////
 
 //////////////////////////////////////////////////////////// ON BUTTON ///////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -35,3 +65,4 @@ function changeBackground() {
 
 
 }
+
